@@ -28,3 +28,21 @@ This project is a simple **chat backend system** built with **Node.js**, **Expre
 3. **Update Chat**: Users can edit their chat messages by visiting an edit form for the specific message.
 4. **Delete Chat**: Users can delete their chat messages from the database by clicking the delete option.
 5. **Dynamic Routing**: The app uses dynamic routing to handle chat message creation, deletion, and editing.
+
+## RESTful API Design
+
+The **Dormy Mini Chat** project follows many of the principles of **RESTful API** design, using standard HTTP methods for interacting with resources. The application works with **chat messages** as its primary resource.
+
+### How it follows RESTful principles:
+
+- **GET /chats**  
+  Retrieves a list of all chat messages. This endpoint corresponds to **GET** in REST, used to fetch resources.
+
+- **POST /chats**  
+  Creates a new chat message. This endpoint corresponds to **POST** in REST, used to create new resources.
+
+- **GET /chats/:id**  
+  Retrieves a specific chat message based on its `id`. This would be more RESTful if the route was `/chats/:id/edit` to retrieve a single resource. (Consider renaming it for consistency.)
+
+- **PUT /chats/:id**  
+  Updates an existing chat message by its `id`. This corresponds to **PUT** in REST, which is used to update existing resources.
