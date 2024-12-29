@@ -31,7 +31,7 @@ This project is a simple **chat backend system** built with **Node.js**, **Expre
 
 ## RESTful API Design
 
-The **Dormy Mini Chat** project follows many of the principles of **RESTful API** design, using standard HTTP methods for interacting with resources. The application works with **chat messages** as its primary resource.
+The **Mini Chat** project follows many of the principles of **RESTful API** design, using standard HTTP methods for interacting with resources. The application works with **chat messages** as its primary resource.
 
 ### How it follows RESTful principles:
 
