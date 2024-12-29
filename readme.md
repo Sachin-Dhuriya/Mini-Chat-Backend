@@ -46,3 +46,7 @@ The **Mini Chat** project follows many of the principles of **RESTful API** desi
 
 - **PUT /chats/:id**  
   Updates an existing chat message by its `id`. This corresponds to **PUT** in REST, which is used to update existing resources.
+
+- **DELETE /chats/:id**  
+  Deletes a specific chat message by its `id`. This corresponds to **DELETE** in REST, used to remove resources.
+
