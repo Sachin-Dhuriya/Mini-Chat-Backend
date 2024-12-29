@@ -1,0 +1,96 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9fb; /* Light background color */
+    color: #333; /* Neutral text color for readability */
+}
+
+/* Page heading styling */
+h3 {
+    text-align: center;
+    color: #0077b6; /* Professional blue */
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+/* Chat ID styling */
+h5 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666666; /* Lighter gray for IDs */
+    margin-bottom: 10px;
+}
+
+/* Form container styling */
+form {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* Form width limits */
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    resize: vertical; /* Allows users to resize the height */
+    min-height: 150px; /* Minimum height */
+    margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+    background-color: #0077b6; /* Professional blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: block;
+    width: 100%;
+    max-width: 200px; /* Button width limits */
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #005f86; /* Slightly darker blue */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+button:active {
+    background-color: #003f58; /* Even darker blue */
+    transform: scale(1); /* Reset zoom on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}

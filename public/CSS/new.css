@@ -1,0 +1,86 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form labels */
+label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Input fields and textarea */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Input text and textarea on focus */
+input[type="text"]:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Textarea specific styling */
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* Submit button */
+button {
+    background-color: #0077b6; /* Professional blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #005f86; /* Slightly darker blue */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+button:active {
+    background-color: #003f58; /* Even darker blue */
+    transform: scale(1); /* Reset zoom on click */
+}
+
+/* Add spacing between fields */
+input[type="text"], textarea {
+    margin-bottom: 15px;
+}

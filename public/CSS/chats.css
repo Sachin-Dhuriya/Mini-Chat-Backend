@@ -1,0 +1,113 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9fb; /* Light background color */
+    color: #333; /* Neutral text color for readability */
+}
+
+/* Page heading styling */
+h1 {
+    text-align: center;
+    color: #0077b6; /* Professional blue */
+    margin-bottom: 30px;
+}
+
+/* Chat container styling */
+.chat {
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chat:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+/* Chat heading styles */
+h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+    color: #005f86; /* Darker blue */
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333333; /* Dark gray for message */
+}
+
+p {
+    font-size: 0.9rem;
+    color: #666666; /* Subtle gray for timestamps */
+}
+
+/* Button styling */
+button {
+    background-color: #0077b6; /* Professional blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #005f86; /* Slightly darker blue */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+button:active {
+    background-color: #003f58; /* Even darker blue */
+    transform: scale(1); /* Reset zoom on click */
+}
+
+/* Form spacing */
+form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Chat ID styling */
+h5 {
+    font-size: 0.8rem;
+    color: #999999; /* Lighter gray for IDs */
+    word-wrap: break-word; /* Ensure IDs don't overflow */
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
+
+    .chat {
+        padding: 10px;
+    }
+}
